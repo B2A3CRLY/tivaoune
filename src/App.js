@@ -15,9 +15,9 @@ export default class App extends Component {
         <TourList/>
         <Router>
           <Switch>
-            <Route path="/home" component={Home}/>
+            <Route path="/" component={TourList}/>
             <Route path="/about" component={About}/>
-            <Route path="/tours" component={Home}/>
+            <Route path="/tours" component={TourList}/>
           </Switch>
         </Router>
       </div>

@@ -5,7 +5,7 @@ import Logo from '../../Logo.png';
 export default class Navbar extends Component {
     render() {
         return (
-            <nav className="navbar row w-100">
+            <nav className="navbar row w-100 container-fluid">
                 <img src={Logo} alt="logo de mon site"/>
                 <ul className="nav-links col-sm">
                     <li><a href="/home" className="nav-link">Home</a></li>
