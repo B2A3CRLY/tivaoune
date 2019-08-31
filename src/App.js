@@ -15,7 +15,7 @@ export default class App extends Component {
         <TourList/>
         <Router>
           <Switch>
-            <Route path="https://babacar-ly-tivaouane.netlify.com/" component={TourList}/>
+            <Route path="/" component={TourList}/>
             <Route path="/about" component={About}/>
             <Route path="/tours" component={TourList}/>
           </Switch>
