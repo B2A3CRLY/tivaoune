@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './Tour.scss';
+import './tour/Tour.scss';
 import { Modal,Button } from 'react-bootstrap';
 export class About extends Component {
   state ={

@@ -14,7 +14,7 @@ export default class Tour extends Component {
         this.setState({ show: false });
       }
     render() {
-        const {id,city,img,name,info} = this.props.tour;
+        const {id,city,img,name,info, muslim} = this.props.tour;
         const {removeTour} = this.props;
         return (
             <article className="tour">
@@ -32,6 +32,7 @@ export default class Tour extends Component {
                         <i className="fas fa-caret-square-down"/>
                     </span>
                   </h5>
+                  <a href = {muslim} target = "_blank">Download Pdf</a>
                 </div>
                 <div>
                   <Modal show={this.state.show} onHide={this.handleClose}>
